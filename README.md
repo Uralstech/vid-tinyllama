@@ -7,8 +7,13 @@ Go to ***<https://huggingface.co/PY007/TinyLlama-1.1B-Chat-v0.2>*** to download 
 ## Docker
 If you do not want to use docker to run the model, you can just run:
 ```bash
-pip install -r requirements.txt or pip3 install -r requirements.txt
-python src/main.py or python3 src/main.py
+pip3 install -r requirements.txt
+python3 src/main.py
+```
+
+```cmd
+pip install -r requirements.txt
+python src/main.py
 ```
 
 ## License
