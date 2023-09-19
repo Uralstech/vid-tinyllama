@@ -22,7 +22,8 @@ def ask(prompt: str):
         top_p = 0.9,
         num_return_sequences=1,
         repetition_penalty=1.1,
-        max_new_tokens=1024,
+        max_new_tokens=100,
+        max_length=100
     )
 
     for seq in sequences:
